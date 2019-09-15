@@ -16,7 +16,7 @@ public class SampleProject {
 		cap.setCapability(MobileCapabilityType.DEVICE_NAME, "Hruthik9");
 		cap.setCapability(MobileCapabilityType.APP, fs.getAbsolutePath());
 		AndroidDriver<AndroidElement> d1 = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), cap);
-
+      
 	}
 
 }
